@@ -1,0 +1,18 @@
+{% extends 'base.html' %}
+
+{% block body %}
+
+<div class="center">
+<h2>{{ the_title }}</h2>
+<select name="" onchange="javascript:window.open(this.options[this.selectedindex].value)" style="width:250px;height:30px;text-align:center;text-align-last:center">
+<option value='gdp' selected>中国各省2016-2018年GDP情况</option>
+<option value='hurun' selected>中国各省博物馆分级</option>
+<option value='number' selected>博物馆数量与旅客关系</option>
+<option value='art' selected>各省艺术表演场馆出场数与旅客数的关系</option>
+<option value="#" selected>--请选择--</option>
+</SELECT>
+    <SCRIPT language=JavaScript>
+var select = document.querySelector('select');select.onchange = function(){    window.location=this.value;}
+    </SCRIPT>
+</div>
+{% endblock %}

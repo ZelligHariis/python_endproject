@@ -1,0 +1,299 @@
+{% extends 'base.html' %}
+
+{% block body %}
+
+     <script type="text/javascript" src="https://assets.pyecharts.org/assets/echarts.min.js"></script>
+        <script type="text/javascript" src="https://assets.pyecharts.org/assets/themes/vintage.js"></script>
+    <div id="cf1ad36bab604bdb93e8c63d018cb01b" class="chart-container" style="width:900px; height:500px;"></div>
+    <script>
+        var chart_cf1ad36bab604bdb93e8c63d018cb01b = echarts.init(
+            document.getElementById('cf1ad36bab604bdb93e8c63d018cb01b'), 'vintage', {renderer: 'canvas'});
+        var option_cf1ad36bab604bdb93e8c63d018cb01b = {
+    "animation": true,
+    "animationThreshold": 2000,
+    "animationDuration": 1000,
+    "animationEasing": "cubicOut",
+    "animationDelay": 0,
+    "animationDurationUpdate": 300,
+    "animationEasingUpdate": "cubicOut",
+    "animationDelayUpdate": 0,
+    "series": [
+        {
+            "type": "bar",
+            "name": "\u56fd\u5bb6\u4e00\u7ea7",
+            "data": [
+                1,
+                11,
+                4,
+                1,
+                6,
+                2,
+                1,
+                1,
+                2,
+                6,
+                5,
+                3,
+                3,
+                1,
+                7,
+                5,
+                5,
+                2,
+                2,
+                1,
+                6,
+                3,
+                6,
+                4,
+                8,
+                5,
+                1,
+                2,
+                2,
+                4,
+                3
+            ],
+            "barCategoryGap": "20%",
+            "label": {
+                "show": true,
+                "position": "top",
+                "margin": 8
+            }
+        },
+        {
+            "type": "bar",
+            "name": "\u56fd\u5bb6\u4e8c\u7ea7",
+            "data": [
+                7,
+                8,
+                10,
+                7,
+                18,
+                5,
+                3,
+                0,
+                12,
+                8,
+                7,
+                11,
+                8,
+                5,
+                15,
+                4,
+                5,
+                8,
+                0,
+                0,
+                12,
+                13,
+                11,
+                7,
+                6,
+                1,
+                0,
+                1,
+                5,
+                15,
+                0
+            ],
+            "barCategoryGap": "20%",
+            "label": {
+                "show": true,
+                "position": "top",
+                "margin": 8
+            }
+        },
+        {
+            "type": "bar",
+            "name": "\u56fd\u5bb6\u4e09\u7ea7",
+            "data": [
+                22,
+                8,
+                17,
+                16,
+                25,
+                16,
+                3,
+                0,
+                18,
+                23,
+                18,
+                25,
+                11,
+                4,
+                19,
+                22,
+                5,
+                16,
+                3,
+                5,
+                9,
+                10,
+                18,
+                8,
+                17,
+                0,
+                0,
+                5,
+                10,
+                13,
+                9
+            ],
+            "barCategoryGap": "20%",
+            "label": {
+                "show": true,
+                "position": "top",
+                "margin": 8
+            }
+        }
+    ],
+    "legend": [
+        {
+            "data": [
+                "\u56fd\u5bb6\u4e00\u7ea7",
+                "\u56fd\u5bb6\u4e8c\u7ea7",
+                "\u56fd\u5bb6\u4e09\u7ea7"
+            ],
+            "selected": {
+                "\u56fd\u5bb6\u4e00\u7ea7": true,
+                "\u56fd\u5bb6\u4e8c\u7ea7": true,
+                "\u56fd\u5bb6\u4e09\u7ea7": true
+            },
+            "show": true
+        }
+    ],
+    "tooltip": {
+        "show": true,
+        "trigger": "item",
+        "triggerOn": "mousemove|click",
+        "axisPointer": {
+            "type": "line"
+        },
+        "textStyle": {
+            "fontSize": 14
+        },
+        "borderWidth": 0
+    },
+    "xAxis": [
+        {
+            "show": true,
+            "scale": false,
+            "nameLocation": "end",
+            "nameGap": 15,
+            "gridIndex": 0,
+            "axisLabel": {
+                "show": true,
+                "position": "top",
+                "rotate": -55,
+                "margin": 8
+            },
+            "inverse": false,
+            "offset": 0,
+            "splitNumber": 5,
+            "minInterval": 0,
+            "splitLine": {
+                "show": false,
+                "lineStyle": {
+                    "width": 1,
+                    "opacity": 1,
+                    "curveness": 0,
+                    "type": "solid"
+                }
+            },
+            "data": [
+                "\u5b89\u5fbd",
+                "\u5317\u4eac",
+                "\u798f\u5efa",
+                "\u7518\u8083",
+                "\u5e7f\u4e1c",
+                "\u5e7f\u897f",
+                "\u8d35\u5dde",
+                "\u6d77\u5357",
+                "\u6cb3\u5317",
+                "\u6cb3\u5357",
+                "\u9ed1\u9f99\u6c5f",
+                "\u6e56\u5317",
+                "\u6e56\u5357",
+                "\u5409\u6797",
+                "\u6c5f\u82cf",
+                "\u6c5f\u897f",
+                "\u8fbd\u5b81",
+                "\u5185\u8499\u53e4",
+                "\u5b81\u590f",
+                "\u9752\u6d77",
+                "\u5c71\u4e1c",
+                "\u5c71\u897f",
+                "\u9655\u897f",
+                "\u4e0a\u6d77",
+                "\u56db\u5ddd",
+                "\u5929\u6d25",
+                "\u897f\u85cf",
+                "\u65b0\u7586",
+                "\u4e91\u5357",
+                "\u6d59\u6c5f",
+                "\u91cd\u5e86"
+            ]
+        }
+    ],
+    "yAxis": [
+        {
+            "show": true,
+            "scale": false,
+            "nameLocation": "end",
+            "nameGap": 15,
+            "gridIndex": 0,
+            "inverse": false,
+            "offset": 0,
+            "splitNumber": 5,
+            "minInterval": 0,
+            "splitLine": {
+                "show": false,
+                "lineStyle": {
+                    "width": 1,
+                    "opacity": 1,
+                    "curveness": 0,
+                    "type": "solid"
+                }
+            }
+        }
+    ],
+    "title": [
+        {
+            "text": "\u5404\u5730\u533a\u56fd\u5bb6\u7ea7\u535a\u7269\u9986\u6570"
+        }
+    ]
+};
+        chart_cf1ad36bab604bdb93e8c63d018cb01b.setOption(option_cf1ad36bab604bdb93e8c63d018cb01b);
+    </script>
+
+
+<form method="POST" action="/hurun1">
+<p><span>省份:</span></p>
+    <select name="the_region_selected">
+        {% for item in the_select_region %}
+            <option value="{{ item }}">{{ item }}</option>
+        {% endfor %}
+    </select>
+<p><input value='筛选' type='SUBMIT'></p>
+</form>
+{{ the_plot_all|safe }}
+{{ the_res|safe }}
+
+{% endblock %}
+
+<table>
+    <p>
+        <span>
+            想要做到以文化带动经济，令更多游客被当地博物馆吸引并前往旅游，不是泛滥的开设更多的博物馆，而是把博物馆做得更“精”，让馆内展品数量更多种类更广，提升博物馆的历史、文化、科学、艺术价值，提升教育服务区的质量，完善开放、管理制度。拥有国家级博物馆多的地区更容易吸引游客，如广东、北京，这两个地区虽拥有博物馆总数不算高，但其外国旅客量和GDP都非常高。
+        </span>
+    </p>
+</table>
+
+    <form method="post" action="start">
+    <p>
+        <input type="submit" value="回到初始页">
+    </p>
+</form>
+
+</html>

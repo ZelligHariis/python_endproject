@@ -1,0 +1,42 @@
+{% extends 'base.html' %}
+
+{% block body %}
+
+
+
+
+
+<h2>你选择的数据为{{ the_shengfen }}  {{ the_nianfen }}的数据:</h2>
+
+<table>
+
+<tr>
+    {% for xifen2 in the_data2 %}
+        <td>{{ xifen2 }}</td>
+    {% endfor %}
+</tr>
+<tr>
+    {% for xifen1 in the_data1 %}
+        <td>{{ xifen1 }}</td>
+    {% endfor %}
+</tr>
+
+</table>
+
+{% endblock %}
+
+<table>
+    <p>
+        <span>
+            我国除了西部地区，其他地区都拥有较多博物馆，尤其是长三角地区、中部地区，对比GDP地图可以发现，GDP高的地区都拥有大量的博物馆，如江苏、山东、浙江、河南，但部分地区虽然拥有较多的博物馆，GDP却相对较低，如陕西、甘肃、内蒙古、山西。
+
+博物馆是征集、典藏、陈列和研究代表自然和人类文化遗产的实物的场所，一定程度上象征了城市的文化，各省的博物馆数与GDP对比分析，可得出：经济大省集中了较多的文化资源，经济大省一定是文化大省，但文化大省不一定是经济大省。
+        </span>
+    </p>
+</table>
+
+    <form method="post" action="start">
+    <p>
+        <input type="submit" value="回到初始页">
+    </p>
+</form>
